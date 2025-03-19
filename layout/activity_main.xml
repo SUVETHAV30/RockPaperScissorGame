@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="20dp"
+android:background="@color/white">
+
+<TextView
+    android:id="@+id/tv_result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Choose Rock, Paper, or Scissors"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="20dp"/>
+
+<ImageView
+    android:id="@+id/iv_cpu_choice"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginBottom="20dp"
+    android:src="@drawable/ic_launcher_background"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="10dp">
+
+    <Button
+        android:id="@+id/btn_rock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Rock"/>
+
+    <Button
+        android:id="@+id/btn_paper"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Paper"/>
+
+    <Button
+        android:id="@+id/btn_scissors"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Scissors"/>
+</LinearLayout>
+</LinearLayout>
